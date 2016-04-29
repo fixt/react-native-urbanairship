@@ -1,4 +1,4 @@
-package co.fixt.RNUAirship;
+package co.fixt.react.RNUAirship;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

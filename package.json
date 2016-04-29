@@ -5,7 +5,7 @@
     "react-native"
   ],
   "description": "Urban Airship integration for React Native",
-  "main": "RCTUAirship.android.js",
+  "main": "RNUAirship.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
