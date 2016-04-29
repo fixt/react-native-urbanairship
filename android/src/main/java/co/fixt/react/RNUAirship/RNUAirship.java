@@ -32,7 +32,7 @@ public class RNUAirship extends ReactContextBaseJavaModule {
       .setDevelopmentAppSecret(config.getString("devAppSecret"))
       .setProductionAppKey(config.getString("prodAppKey"))
       .setProductionAppSecret(config.getString("prodAppSecret"))
-      .setInProduction(config.getString("isProd"))
+      .setInProduction(config.getBoolean("isProd"))
       .setGcmSender(config.getString("gcmSender"))
       .build();
 
