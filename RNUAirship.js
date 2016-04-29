@@ -4,8 +4,8 @@ import { NativeModules } from 'react-native';
 const NativeRNUAirship = NativeModules.RNUAirship;
 
 const RNUAirship = {
-  takeOff: function() {
-    NativeRNUAirship.takeOff();
+  takeOff: function(config) {
+    NativeRNUAirship.takeOff(config);
   }
 };
 

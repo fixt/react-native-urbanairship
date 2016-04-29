@@ -24,8 +24,17 @@ public class RNUAirship extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void takeOff() {
-    UAirship.takeOff(mActivity.getApplication(), new UAirship.OnReadyCallback() {
+  public void takeOff(ReadableMap config) {
+    AirshipConfigOptions options = new AirshipConfigOptions.Builder()
+      .setDevelopmentAppKey(config.getString("devAppKey"))
+      .setDevelopmentAppSecret(config.getString("devAppSecret"))
+      .setProductionAppKey(config.getString("prodAppKey"))
+      .setProductionAppSecret(config.getString("prodAppSecret"))
+      .setInProduction(config.getString("isProd"))
+      .setGcmSender(config.getString("gcmSender"))
+      .build();
+
+    UAirship.takeOff(mActivity.getApplication(), options, new UAirship.OnReadyCallback() {
       @Override
       public void onAirshipReady(UAirship airship) {
         airship.getPushManager().setUserNotificationsEnabled(true);
