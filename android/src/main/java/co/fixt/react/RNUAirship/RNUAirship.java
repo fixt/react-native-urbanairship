@@ -9,6 +9,7 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 
 import com.urbanairship.UAirship;
+import com.urbanairship.AirshipConfigOptions;
 
 public class RNUAirship extends ReactContextBaseJavaModule {
   private Activity mActivity;
