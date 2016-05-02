@@ -1,0 +1,8 @@
+{
+  "devAppKey": "DEVELOPMENT APP KEY",
+  "devAppSecret": "DEVELOPMENT APP SECRET",
+  "prodAppKey": "PRODUCTION APP KEY",
+  "prodAppSecret": "PRODUCTION APP SECRET",
+  "isProd": false,
+  "gcmSender": "Your Google API Project Number"
+}
