@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13BE3DEE1AC21097009241FE /* RNUAirship.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE3DED1AC21097009241FE /* RNUAirship.m */; };
+		3142FD3A1CD7B19B00CF1919 /* AirshipKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318CCCA11CD3BE1300363C15 /* AirshipKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3142FD3A1CD7B19B00CF1919 /* AirshipKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,7 +5,7 @@
 
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(takeOff)
+RCT_EXPORT_METHOD(takeOff:(NSDictionary *)config)
 {
   [UAirship takeOff];
   [UAirship push].userPushNotificationsEnabled = YES;
